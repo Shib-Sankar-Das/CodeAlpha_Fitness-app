@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Privacy policy"
+        android:id="@+id/id_privacy"
+        android:orderInCategory="100"/>
+
+    <item
+        android:title="Terms and Conditions"
+        android:id="@+id/id_term"
+        android:orderInCategory="101"/>
+
+    <item
+        android:title="Rate Us"
+        android:id="@+id/rate"
+        android:orderInCategory="102"/>
+
+    <item
+        android:title="More Apps"
+        android:id="@+id/more"
+        android:orderInCategory="103"/>
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:orderInCategory="104"/>
+
+
+</menu>

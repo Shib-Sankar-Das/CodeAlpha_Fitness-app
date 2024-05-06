@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity">
+    
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+            
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="fill_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="?colorPrimary">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="foodgoback"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/left_arrow1"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10.0dp"
+                    android:text="Tips &amp; Diets"
+                    android:textColor="#FFF"
+                    android:textSize="20.0dp"/>
+
+            </androidx.appcompat.widget.Toolbar>
+            
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5.0dp"
+        android:layout_below="@+id/linear">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list">
+
+
+
+
+
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>
